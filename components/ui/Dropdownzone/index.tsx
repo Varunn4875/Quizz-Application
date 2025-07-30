@@ -1,4 +1,4 @@
-"use client"
+"use client"  //not needed in this page though
 import React, { useEffect, useState } from "react";
 import {
   DropdownMenu,
