@@ -5,7 +5,7 @@ import React from "react";
 import useQuiz from "./store";
 export default function Home() {
   const quizconfig=useQuiz(state=>state.config)
-  console.log(quizconfig,"heere")
+  // console.log(quizconfig,"heere")
   const addNumberOfQuestion=useQuiz(state=>state.addNumberOfQuestion)
 
   return (
