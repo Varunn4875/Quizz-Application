@@ -21,7 +21,7 @@ function Quiz() {
                 .sort((a,b)=>a.sort-b.sort)  
                 .map(({value})=>value)
                 e.answers=[...value]
-                return event;
+                return e;
         })
 setQuestions([...shuffledResults])
 setLoading(false)
